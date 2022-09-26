@@ -1,0 +1,228 @@
+@media (max-width: 600px) {
+    .container{
+        margin: 0px 0px;
+        background-color: rgb(36, 34, 34);
+        height:fit-content;
+        width: 580px;
+        border-radius: 10px;
+        overflow-wrap: break-word;
+    }
+    
+    .container > ul
+    {
+      display: flex;
+      flex-flow: column wrap;
+      height: inherit;
+      width: inherit;
+      margin:0;
+    }
+    .container > ul > li
+    {
+      flex: 0 0 auto;
+      inline-size: 600px;
+      margin-left: 5%;
+    }
+    li, a{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 12px;
+        text-decoration: none;
+        color: #9ca4a7;
+        
+    }
+    .nav_links{
+        list-style: none;
+        background-color:rgb(41, 38, 38)  
+    }
+    .nav_links li{
+        display: inline-block;
+        padding: 0px 10px;
+        background-color:rgb(41, 38, 38)
+    }
+    .nav_links li a{
+        transition: all 0.3s ease 0s;
+        background-color:rgb(41, 38, 38) 
+     }
+    
+     .nav_links li a:hover {
+        color: #f5f7f8;
+        transition: .5s;
+     }
+     header{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: 10px 5%;
+        height: 70px;
+        background-color:rgb(41, 38, 38) ;
+        border-radius: 10px;
+    }
+    .active{
+        color: rgb(248, 80, 80);
+        font-weight: bold;
+    }
+    .upper-section{
+        background-color:rgb(36, 34, 34) ;
+        height: 250px;
+        text-align:center;
+        margin-top: 20px;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    h1,span{
+        background-color:rgb(36, 34, 34);
+        color: #f5f7f8;
+    }
+    hr{
+        width: 100%;
+    }
+    .pinned ul li{
+        background-color:rgb(36, 34, 34) ;
+    }
+    #input-field,#input-field-1,#input-field-2,#input-field-3{
+        height: 40px;
+        width: 60%;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color:rgb(29, 27, 27) ;
+        border-style: none;
+        color: aliceblue;
+        text-indent: 5px;
+        font-size: large;
+    }
+    button{
+        height: 35px;
+        background-color: rgb(117, 117, 193);
+        color: #f5f7f8;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: "Montserrat", sans-serif;
+        font-weight:bold;
+        width: 50px;
+        font-size: 12px;
+        border-style: none;
+    }
+    button:hover{
+        background-color: rgb(72, 72, 161)
+    }
+    #task-list{
+        list-style-type: none;
+        margin: 25px;
+    }
+    #task-list li{
+        margin-bottom: 10px;
+        margin-top: -18px;
+        margin-left: 18px;
+    }
+    .login-form-container{
+        margin-top: 100px;
+        border-radius: 30px;
+        height: 600px;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        background-color:rgb(36, 34, 34);
+    }
+    .login-content{
+        padding: 70px 10%;
+        text-align: center;
+    }
+    .login-content h1{
+        padding: 30px;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif
+    }
+    #login-button{
+        height: 50px;
+        background-color:rgb(117, 117, 193);
+        color: #f5f7f8;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: "Montserrat", sans-serif;
+        font-weight:bold;
+        width: 150px;
+        border-style: none;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    #login-button:hover{
+        background-color: rgb(72, 72, 161);
+    }
+    span{
+        font-size: large;
+        font-family: "Montserrat", sans-serif;
+    }
+    #sign-up-button{
+        height: 50px;
+        background-color:rgb(117, 117, 193);
+        color: #f5f7f8;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: "Montserrat", sans-serif;
+        font-weight:bold;
+        width: 200px;
+        border-style: none;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    #sign-up-button:hover{
+        background-color: rgb(72, 72, 161);
+    }
+    #action-button{
+        background-color:rgb(36, 34, 34);
+        float: inline-end;
+        
+    }
+    #action-button:hover{
+        display: block;
+        position: relative;
+        padding: 16px;
+        border: none;
+    }
+    
+    .menu-items {
+        display: none;
+        position:absolute;
+        background-color: rgb(36, 34, 34);
+        min-width: 70px;
+        text-align: center;
+       }
+       
+       .menu-items a{
+           display: block;
+           background-color: rgb(101, 58, 58);
+           color:rgb(248, 244, 244);
+           padding:10px;
+           border:none;
+           cursor: pointer;
+           text-decoration: none;
+           margin-bottom: 2px;
+       }
+    
+       #logo::first-letter{
+        color:rgb(117, 117, 193);
+     }
+    
+      #logo{
+          font-size:30px;
+          font-family: "Montserrat", sans-serif ;
+          color: #9ca4a7;
+          margin-left: -160px;
+          padding-right: 130px;
+          font-weight: bold;
+      }
+    .lower-section{
+            background-color:rgb(36, 34, 34) ;
+            height: 250px;
+            text-align:center;
+            margin-top: 20px;
+            font-family: "Montserrat", sans-serif;
+        }
+    
+      
+     
+
+}

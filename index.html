@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+<body onload="gettingtime()">
+    <div class="container" id="gettasks">  
+        <header>
+        <nav>
+            <ul class="nav_links">
+                <label id="logo">TuDu</label>
+                <li><a href="#" class="active">Tasks</a></li>
+                <li><a href="#">Dashboard</a></li>
+            </ul>
+        </nav>
+        </header>
+        <div class="upper-section" >
+            <h1 id="today">Wednesday</h1><span id="fulldate">April 20,2022</span><br>
+            <input type="text" placeholder=" Add a task" id="input-field">
+            <button onclick="gettingtasks()" id="add">Add</button>
+            <ul>
+                <li id="pinned" style="list-style-type: none; margin-top: 40px; margin-left:-600px;"></li>
+            </ul>
+        </div>
+        <hr>
+            <ul id="task-list">
+            </ul>
+   <script src="JS/fun.js"></script>
+</body>
+</html>
